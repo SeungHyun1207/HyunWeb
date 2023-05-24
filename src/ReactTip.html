@@ -28,8 +28,11 @@ script쪽에서
 "deploy": "gh-pages -d build",
 "predeploy": "npm run build" 추가
 
-재배포 할시 해당 명령어 입력
-npm run deploy
+=== 배포시 순서대로 입력 ===
+git add . <<< 전부 추가
+git commit -m "커밋메세지"
+git push origin "브랜치이름" >>> git push origin main
+npm run deploy <<< 빌드 후 재배포 시작
 
 
 003 Git
