@@ -1,0 +1,34 @@
+<!--
+001. React Git Hub 연동
+참조주소 : https://kitty-geno.tistory.com/141
+1-1.
+먼저 깃허브에서 레파지토리 생성
+1-2.
+Shift 두번 클릭 > 검색창 나온다.
+create 검색 후 Create Git Repository 선택
+업로드 할 프로젝트 선택
+업로드하게되면 Push Commits to (프로젝트명) 이 뜬다.
+Define remote 클릭 후
+Name 을 정해주고 주소를 정한다.
+※ 주의사항 : AppName은 대문자가 불가능하니 -(대시)로 지정해주자
+이때 주소는 생성했던 레파지토리로 들어가서 한다
+Ex) https://github.com/hyun1207/reactTest
+
+002. ReactProject >  Git Hub Pages > deploy (GitHub Pages 무료 배포)
+GitHub Pages 무료 배포
+1-1 GitHub Pages 들어가기
+Github 레파지토피 > Settings > Pages > Source > None이면 안된다. branch
+Terminal > npm i gh-pages (GitHub Pages 기능을 위해 파일들을 배포하는 패키지)
+
+package.json파일에서
+상단에 "homepage": "호스팅될 웹사이트 주소" 추가
+보통 https://ID이름.github.io/repository이름 <<< 이렇게 정해집니다.
+script쪽에서
+"deploy": "gh-pages -d build",
+"predeploy": "npm run build" 추가
+
+
+
+
+
+-->
