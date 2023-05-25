@@ -22,7 +22,11 @@ function MainContent(){
         <div className="ContentWrap">
             {/* 컨텐츠 */}
             <div className="ContentTop">
-                <VisitorCounter/>
+                {/* 공지사항 */}
+                <marquee direction="left">
+                    <h2>환영합니다! 2023-05-21 ~ 현재 프로젝트 진행중입니다.</h2>
+                </marquee>
+                {/*<VisitorCounter/>*/}
             </div>
         </div>
     )

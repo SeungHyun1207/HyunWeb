@@ -58,10 +58,25 @@ body #fullpage .mainWrap .ContentWrap {
 }
 body #fullpage .mainWrap .ContentWrap .ContentTop {
   width: 100%;
+  height: 10%;
 }
-body #fullpage .mainWrap .ContentWrap .ContentTop .visitor {
-  float: right;
-  margin-right: 20px;
+body #fullpage .mainWrap .ContentWrap .ContentCont {
+  width: 100%;
+  height: 90%;
+  border: 1px solid black;
+  overflow-y: auto;
+}
+body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 3%;
+}
+body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap .Card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 300px;
+  border-radius: 10%;
 }
 
 /*# sourceMappingURL=App.css.map */
