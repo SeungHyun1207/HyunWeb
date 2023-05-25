@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 // Switch 대신 Routes로 변경
 
-// import "./styles/App.scss";
+import "./styles/App.scss";
 import MainDashBoard from "./MainDashBoard";
 import Profile from "./Profile";
 
