@@ -8,7 +8,8 @@ body #fullpage {
   border: 1px solid black;
 }
 body #fullpage .mainWrap {
-  width: 100%;
+  display: flex;
+  max-width: 1672px;
   height: 100%;
 }
 body #fullpage .mainWrap .sideBarWrap {
@@ -49,6 +50,18 @@ body #fullpage .mainWrap .sideBarWrap .sideBarCont .sidecont {
   justify-content: center;
   height: 100%;
   border: 1px solid black;
+}
+body #fullpage .mainWrap .ContentWrap {
+  max-width: 1372px;
+  width: 100%;
+  background: #e7dfdf;
+}
+body #fullpage .mainWrap .ContentWrap .ContentTop {
+  width: 100%;
+}
+body #fullpage .mainWrap .ContentWrap .ContentTop .visitor {
+  float: right;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=App.css.map */

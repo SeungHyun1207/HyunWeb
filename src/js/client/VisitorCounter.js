@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SideBar from "./SideBar";
 
 function VisitorCounter() {
     const [visitorCount, setVisitorCount] = useState(0);
@@ -33,9 +34,7 @@ function VisitorCounter() {
     };
 
     return (
-        <div>
-            <h1>방문자 수: {visitorCount}</h1>
-        </div>
+            <h1 className="visitor">방문자 수: {visitorCount}</h1>
     );
 }
 

@@ -1,6 +1,6 @@
 
 import SideBar from "./SideBar";
-import VisitorCounter from "./VisitorCounter";
+import Content from "./Content";
 function Trip(){
 
     return(
@@ -8,6 +8,7 @@ function Trip(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
+            <Content />
         </div>
 
     )
