@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.500fe437.css","mappings":"AAAA,KAGE,mBAFA,SACA,UACA","sources":["styles/App.scss"],"sourcesContent":["body{\r\n  margin: 0;\r\n  padding: 5%;\r\n  background: aquamarine;\r\n}"],"names":[],"sourceRoot":""}
