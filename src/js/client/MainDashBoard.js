@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 
 import SideBar from "./SideBar";
 import VisitorCounter from "./VisitorCounter";
-import Content from "./Content";
 function MainDashBoard(){
 
     return (
@@ -11,10 +10,22 @@ function MainDashBoard(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <Content />
+            <MainContent />
         </div>
     )
 
+}
+
+function MainContent(){
+
+    return (
+        <div className="ContentWrap">
+            {/* 컨텐츠 */}
+            <div className="ContentTop">
+                <VisitorCounter/>
+            </div>
+        </div>
+    )
 }
 
 export default MainDashBoard;

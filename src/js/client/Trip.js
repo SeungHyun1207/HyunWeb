@@ -1,6 +1,5 @@
 
 import SideBar from "./SideBar";
-import Content from "./Content";
 function Trip(){
 
     return(
@@ -8,10 +7,25 @@ function Trip(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <Content />
+            <TripCont />
         </div>
 
     )
+}
+
+function TripCont(){
+
+    return (
+
+        <div className="ContentWrap">
+            {/* 컨텐츠 */}
+            <div className="ContentTop">
+                <div>Trip 컨텐츠테스트</div>
+            </div>
+        </div>
+
+    )
+
 }
 
 export default Trip;

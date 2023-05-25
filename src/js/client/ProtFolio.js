@@ -1,6 +1,5 @@
 
 import SideBar from "./SideBar";
-import Content from "./Content";
 
 function PortFolio(){
 
@@ -9,7 +8,21 @@ function PortFolio(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <Content />
+            <PortFolioCont />
+        </div>
+
+    )
+}
+
+function PortFolioCont(){
+
+    return (
+
+        <div className="ContentWrap">
+            {/* 컨텐츠 */}
+            <div className="ContentTop">
+                <div>PortFolio 컨텐츠테스트</div>
+            </div>
         </div>
 
     )

@@ -1,6 +1,5 @@
 
 import SideBar from "./SideBar";
-import Content from "./Content";
 
 function Setting(){
 
@@ -9,7 +8,21 @@ function Setting(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <Content />
+            <SettingCont />
+        </div>
+
+    )
+}
+
+function SettingCont(){
+
+    return (
+
+        <div className="ContentWrap">
+            {/* 컨텐츠 */}
+            <div className="ContentTop">
+                <div>Setting 컨텐츠테스트</div>
+            </div>
         </div>
 
     )

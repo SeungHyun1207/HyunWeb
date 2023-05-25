@@ -1,6 +1,5 @@
 
 import SideBar from "./SideBar";
-import Content from "./Content";
 
 function Game(){
 
@@ -9,10 +8,23 @@ function Game(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <Content />
+            <GameCont />
         </div>
 
     )
 }
 
+function GameCont(){
+
+    return (
+
+        <div className="ContentWrap">
+            {/* 컨텐츠 */}
+            <div className="ContentTop">
+                <div>Game 컨텐츠테스트</div>
+            </div>
+        </div>
+
+    )
+}
 export default Game;

@@ -1,6 +1,5 @@
 
 import SideBar from "./SideBar";
-import Content from "./Content";
 
 function Study(){
 
@@ -9,7 +8,21 @@ function Study(){
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <Content />
+            <StudyCont />
+        </div>
+
+    )
+}
+
+function StudyCont(){
+
+    return (
+
+        <div className="ContentWrap">
+            {/* 컨텐츠 */}
+            <div className="ContentTop">
+                <div>Study 컨텐츠테스트</div>
+            </div>
         </div>
 
     )
