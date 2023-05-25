@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.62049ee6.css","mappings":"AAAA,KACE,SACA,WACA,WAGE,kBAFA,sBACA,UACA","sources":["styles/App.scss"],"sourcesContent":["body{\r\n  margin: 0;\r\n  padding: 5%;\r\n  #root{\r\n    border: 1px solid black;\r\n    width: 100%;\r\n    background: tomato;\r\n  }\r\n\r\n\r\n}"],"names":[],"sourceRoot":""}

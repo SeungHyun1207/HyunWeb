@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/HyunReactProject/static/css/main.62049ee6.css",
     "main.js": "/HyunReactProject/static/js/main.d0bf5a12.js",
     "index.html": "/HyunReactProject/index.html",
-    "main.62049ee6.css.map": "/HyunReactProject/static/css/main.62049ee6.css.map",
     "main.d0bf5a12.js.map": "/HyunReactProject/static/js/main.d0bf5a12.js.map"
   },
   "entrypoints": [
-    "static/css/main.62049ee6.css",
     "static/js/main.d0bf5a12.js"
   ]
 }
