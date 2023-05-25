@@ -27,11 +27,11 @@ function SideBar(){
                 <div className="study sidecont">
                     <Link to="/Study" style={{textDecoration: 'none'}}>Study</Link>
                 </div>
-                <div className="setting sidecont">
-                    <Link to="/Setting" style={{textDecoration: 'none'}}>Setting</Link>
-                </div>
                 <div className="portfolio sidecont">
                     <Link to="/PortFolio" style={{textDecoration: 'none'}}>PortFolio</Link>
+                </div>
+                <div className="setting sidecont">
+                    <Link to="/Setting" style={{textDecoration: 'none'}}>Setting</Link>
                 </div>
             </div>
         </div>
