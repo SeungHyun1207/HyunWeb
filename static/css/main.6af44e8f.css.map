@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.6af44e8f.css","mappings":"AAAA,KACE,SACA,WACA,WACE,sBACA","sources":["styles/App.scss"],"sourcesContent":["body{\r\n  margin: 0;\r\n  padding: 5%;\r\n  #root{\r\n    border: 1px solid black;\r\n    width: 100%;\r\n  }\r\n\r\n\r\n}"],"names":[],"sourceRoot":""}
