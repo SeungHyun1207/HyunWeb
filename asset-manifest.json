@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/HyunReactProject/static/css/main.b4206507.css",
-    "main.js": "/HyunReactProject/static/js/main.1180eef8.js",
+    "main.css": "/HyunReactProject/static/css/main.4ea16eb3.css",
+    "main.js": "/HyunReactProject/static/js/main.9e04407d.js",
     "index.html": "/HyunReactProject/index.html",
-    "main.b4206507.css.map": "/HyunReactProject/static/css/main.b4206507.css.map",
-    "main.1180eef8.js.map": "/HyunReactProject/static/js/main.1180eef8.js.map"
+    "main.4ea16eb3.css.map": "/HyunReactProject/static/css/main.4ea16eb3.css.map",
+    "main.9e04407d.js.map": "/HyunReactProject/static/js/main.9e04407d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4206507.css",
-    "static/js/main.1180eef8.js"
+    "static/css/main.4ea16eb3.css",
+    "static/js/main.9e04407d.js"
   ]
 }
