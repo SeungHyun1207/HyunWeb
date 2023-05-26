@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SideBar from "./SideBar";
+import SideBar from "../client/SideBar";
 
 /**
  *  @author Hyun

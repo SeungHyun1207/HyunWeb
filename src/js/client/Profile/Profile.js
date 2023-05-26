@@ -1,5 +1,5 @@
 
-import SideBar from "./SideBar";
+import SideBar from "../SideBar";
 
 function Profile(){
 

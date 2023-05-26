@@ -3,12 +3,12 @@ import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 
 import "./styles/App.scss";
 import MainDashBoard from "./js/client/MainDashBoard";
-import Profile from "./js/client/Profile";
-import Trip from "./js/client/Trip";
-import Game from "./js/client/Game";
-import Study from "./js/client/Study";
-import PortFolio from "./js/client/ProtFolio";
-import Setting from "./js/client/Setting";
+import Profile from "./js/client/Profile/Profile";
+import Trip from "./js/client/Trip/Trip";
+import Game from "./js/client/Game/Game";
+import Study from "./js/client/Study/Study";
+import PortFolio from "./js/client/PortFolio/PortFolio";
+import Setting from "./js/client/Setting/Setting";
 
 
 

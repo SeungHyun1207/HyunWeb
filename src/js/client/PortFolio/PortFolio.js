@@ -1,31 +1,31 @@
 
-import SideBar from "./SideBar";
-function Trip(){
+import SideBar from "../SideBar";
+
+function PortFolio(){
 
     return(
         <div className="mainWrap">
             {/* 사이드바 */}
             <SideBar/>
             {/* 컨텐츠 */}
-            <TripCont />
+            <PortFolioCont />
         </div>
 
     )
 }
 
-function TripCont(){
+function PortFolioCont(){
 
     return (
 
         <div className="ContentWrap">
             {/* 컨텐츠 */}
             <div className="ContentTop">
-                <div>Trip 컨텐츠테스트</div>
+                <div>PortFolio 컨텐츠테스트</div>
             </div>
         </div>
 
     )
-
 }
 
-export default Trip;
+export default PortFolio;

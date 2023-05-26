@@ -5,6 +5,7 @@ body {
   background-clip: border-box;
   background-image: url("../img/Home_Background_Img.PNG");
   background-position: center;
+  overflow: hidden;
   backdrop-filter: blur(3px);
 }
 body #fullpage {
@@ -113,6 +114,17 @@ body #fullpage .mainWrap .ContentWrap {
 body #fullpage .mainWrap .ContentWrap .ContentTop {
   width: 100%;
   height: 10%;
+}
+body #fullpage .mainWrap .ContentWrap .ContentTop marquee {
+  color: #f1f1f1;
+  position: relative;
+}
+body #fullpage .mainWrap .ContentWrap .ContentTop .clock {
+  position: absolute;
+  font-size: 3rem;
+  right: 10%;
+  top: 15%;
+  color: #f1f1f1;
 }
 body #fullpage .mainWrap .ContentWrap .ContentCont {
   width: 100%;
