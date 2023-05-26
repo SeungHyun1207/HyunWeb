@@ -24,9 +24,18 @@ function Clock() {
         return `${hours}:${minutes}:${seconds} ${ampm}`;
     };
 
+    // 날짜를 포맷팅하는 함수
+    const formatDate = (time) => {
+        const year = time.getFullYear();
+        const month = (time.getMonth() + 1).toString().padStart(2, "0");
+        const date = time.getDate().toString().padStart(2, "0");
+        return `${year}-${month}-${date}`;
+    };
+
     return (
         <div className="clock">
-            {formatTime(currentTime)}
+            <div className="date">{formatDate(currentTime)}</div>
+            <div className="time">{formatTime(currentTime)}</div>
         </div>
     );
 }
