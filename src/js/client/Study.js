@@ -40,7 +40,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/CSS" style={{textDecoration: 'none'}}>CSS</Link>
+                            <Link to="/Study/CSS" style={{textDecoration: 'none'}}>CSS</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -50,7 +50,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/JavaScript" style={{textDecoration: 'none'}}>JavaScript</Link>
+                            <Link to="/Study/JavaScript" style={{textDecoration: 'none'}}>JavaScript</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -60,7 +60,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/React" style={{textDecoration: 'none'}}>React</Link>
+                            <Link to="/Study/React" style={{textDecoration: 'none'}}>React</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -70,7 +70,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/CMD" style={{textDecoration: 'none'}}>CMD</Link>
+                            <Link to="/Study/CMD" style={{textDecoration: 'none'}}>CMD</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -80,7 +80,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/ApacheTomcat" style={{textDecoration: 'none'}}>Apache Tomcat</Link>
+                            <Link to="/Study/ApacheTomcat" style={{textDecoration: 'none'}}>Apache Tomcat</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -90,7 +90,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/Thymeleaf" style={{textDecoration: 'none'}}>Thymeleaf</Link>
+                            <Link to="/Study/Thymeleaf" style={{textDecoration: 'none'}}>Thymeleaf</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -100,7 +100,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/GitHub" style={{textDecoration: 'none'}}>GitHub</Link>
+                            <Link to="/Study/GitHub" style={{textDecoration: 'none'}}>GitHub</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -110,7 +110,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/GitLab" style={{textDecoration: 'none'}}>GitLab</Link>
+                            <Link to="/Study/GitLab" style={{textDecoration: 'none'}}>GitLab</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -120,7 +120,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/Linux" style={{textDecoration: 'none'}}>Linux</Link>
+                            <Link to="/Study/Linux" style={{textDecoration: 'none'}}>Linux</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -130,7 +130,7 @@ function StudyCont(){
                     </div>
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/Datastructure" style={{textDecoration: 'none'}}>자료구조</Link>
+                            <Link to="/Study/Datastructure" style={{textDecoration: 'none'}}>자료구조</Link>
                         </div>
                         <div className="CardCont">
                             <summary>
@@ -141,7 +141,7 @@ function StudyCont(){
 
                     <div className="Card">
                         <div className="CardTitle">
-                            <Link to="/algorithm" style={{textDecoration: 'none'}}>알고리즘</Link>
+                            <Link to="/Study/algorithm" style={{textDecoration: 'none'}}>알고리즘</Link>
                         </div>
                         <div className="CardCont">
                             <summary>

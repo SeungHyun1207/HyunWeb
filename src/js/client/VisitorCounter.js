@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import SideBar from "./SideBar";
 
+/**
+ *  @author Hyun
+ *  방문자 수 증가
+ */
 function VisitorCounter() {
     const [visitorCount, setVisitorCount] = useState(0);
 

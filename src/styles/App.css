@@ -16,8 +16,13 @@ body #fullpage .mainWrap .sideBarWrap {
   position: relative;
   display: block;
   text-align: center;
-  width: 300px;
+  width: 100px;
   height: 100%;
+  transition: width 0.3s ease;
+}
+body #fullpage .mainWrap .sideBarWrap.open {
+  width: 300px;
+  transition: width 0.3s ease;
 }
 body #fullpage .mainWrap .sideBarWrap .sideBarTop {
   display: flex;
@@ -35,6 +40,46 @@ body #fullpage .mainWrap .sideBarWrap .sideBarTop .home {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .home .logo {
+  background-size: cover;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Home_Profile.jpg);
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 10%;
+  left: 99%;
+  transform: translate(-50%, -50%);
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose span {
+  display: block;
+  background: black;
+  width: 20px;
+  height: 3px;
+  border-radius: 3px;
+  transition: 0.25s margin 0.25s, transform 0.25s;
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose span:nth-child(1) {
+  margin-bottom: 9px;
+  transform: rotate(45deg);
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose span:nth-child(2) {
+  transform: rotate(140deg);
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose.active span {
+  transition: 0.25s margin, 0.25s transform 0.25s;
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose.active span:nth-child(1) {
+  margin-bottom: 9px;
+  transform: rotate(140deg);
+}
+body #fullpage .mainWrap .sideBarWrap .sideBarTop .menuOpenClose.active span:nth-child(2) {
+  transform: rotate(45deg);
 }
 body #fullpage .mainWrap .sideBarWrap .sideBarCont {
   display: block;
