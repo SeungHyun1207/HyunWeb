@@ -12,6 +12,7 @@ import PortFolio from "./js/client/PortFolio/PortFolio";
 import Setting from "./js/client/Setting/Setting";
 
 /* 서브화면 */
+import Jeju from "./js/client/Trip/Jeju";
 import Maple from "./js/client/Game/Maple";
 
 
@@ -28,6 +29,8 @@ function App() {
                 <Route path="/Study" element={<Study />} />
                 <Route path="/PortFolio" element={<PortFolio />} />
                 <Route path="/Setting" element={<Setting />} />
+
+                <Route path="Trip/Jeju" element={<Jeju />} />
 
                 <Route path="/Game/MapleStory" element={<Maple />} />
             </Routes>

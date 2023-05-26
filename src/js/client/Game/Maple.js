@@ -3,8 +3,13 @@ function Maple(){
 
     return (
 
-        <div>
-            <h2>메이플은 만드는중입니다.</h2>
+        <div className="MapleWrap">
+            <div className="MapleTitle">
+                <h2>타이틀</h2>
+            </div>
+            <div className="MapleCont">
+                <h2>컨텐츠</h2>
+            </div>
         </div>
 
     )

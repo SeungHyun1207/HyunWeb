@@ -27,8 +27,6 @@ function GameCont(){
             <div className="ContentCont">
                 {/* 추후 게이지바로 전환 */}
                 <div className="CardWrap">
-                    {/* Card를 클릭했을 때 들어갈 수 있게끔 하기 */}
-
                     <Link to={"/Game/MapleStory"} style={{textDecoration: 'none'}}>
                         <div className="Card">
                             <div className="CardTitle">
