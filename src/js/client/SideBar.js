@@ -43,28 +43,28 @@ function SideBar(){
             </div>
             <div className="sideBarCont">
                 <div className="profile sidecont">
-                    <Link to="/Profile" style={{ textDecoration: 'none' }}>프로필</Link>
+                    <Link to="/Profile" className="menu" style={{ textDecoration: 'none' }}>프로필</Link>
                 </div>
                 <div className="youtube sidecont">
-                    <a href="https://www.youtube.com/channel/UCHC0mo3JMGpzGeV_mLKQ9ug" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>Youtube</a>
+                    <a href="https://www.youtube.com/channel/UCHC0mo3JMGpzGeV_mLKQ9ug" target="_blank" rel="noopener noreferrer" className="menu" style={{ textDecoration: 'none' }}>Youtube</a>
                 </div>
                 <div className="instagram sidecont">
-                    <a href="https://instagram.com/s12.hyun07?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>Instagram</a>
+                    <a href="https://instagram.com/s12.hyun07?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" className="menu" style={{ textDecoration: 'none' }}>Instagram</a>
                 </div>
                 <div className="trip sidecont">
-                    <Link to="/Trip" style={{ textDecoration: 'none' }}>Trip</Link>
+                    <Link to="/Trip" className="menu" style={{ textDecoration: 'none' }}>Trip</Link>
                 </div>
                 <div className="game sidecont">
-                    <Link to="/Game" style={{ textDecoration: 'none' }}>Game</Link>
+                    <Link to="/Game" className="menu" style={{ textDecoration: 'none' }}>Game</Link>
                 </div>
                 <div className="study sidecont">
-                    <Link to="/Study" style={{ textDecoration: 'none' }}>Study</Link>
+                    <Link to="/Study" className="menu" style={{ textDecoration: 'none' }}>Study</Link>
                 </div>
                 <div className="portfolio sidecont">
-                    <Link to="/PortFolio" style={{ textDecoration: 'none' }}>PortFolio</Link>
+                    <Link to="/PortFolio" className="menu" style={{ textDecoration: 'none' }}>PortFolio</Link>
                 </div>
                 <div className="setting sidecont">
-                    <Link to="/Setting" style={{ textDecoration: 'none' }}>Setting</Link>
+                    <Link to="/Setting" className="menu" style={{ textDecoration: 'none' }}>Setting</Link>
                 </div>
             </div>
         </div>
