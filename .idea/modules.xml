@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../hyunreactproject.iml" filepath="$PROJECT_DIR$/../hyunreactproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HyunWeb.iml" filepath="$PROJECT_DIR$/../HyunWeb.iml" />
     </modules>
   </component>
 </project>

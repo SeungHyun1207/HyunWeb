@@ -1,6 +1,6 @@
 {
-  "homepage": "https://hyun1207.github.io/HyunReactProject",
-  "name": "hyunreactproject",
+  "homepage": "https://hyun1207.github.io/HyunWeb",
+  "name": "HyunWeb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
