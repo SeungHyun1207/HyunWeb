@@ -1,0 +1,14 @@
+.Trip-container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-clip: border-box;
+  background-image: url("../img/Trip_Background.jpg");
+  background-position: center;
+  overflow: hidden;
+}
+.Trip-container .menuLink {
+  color: black;
+}
+
+/*# sourceMappingURL=Trip.css.map */

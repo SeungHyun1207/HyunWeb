@@ -28,7 +28,7 @@ function StudyCont(){
                 {/* 추후 게이지바로 전환 */}
                 <div className="CardWrap">
                     <Link to={"/Study/Html"} style={{textDecoration: 'none'}}>
-                        <div className="Card">
+                        <div className="Card Html">
                             <div className="CardTitle">
                                 <span>Html 타이틀</span>
                             </div>
@@ -64,6 +64,16 @@ function StudyCont(){
                             </div>
                             <div className="CardCont">
                                 <span>이곳에선 React에 관한 용어를 설명합니다.</span>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to={"/Study/JSP"} style={{textDecoration: 'none'}}>
+                        <div className="Card">
+                            <div className="CardTitle">
+                                <span>JSP 타이틀</span>
+                            </div>
+                            <div className="CardCont">
+                                <span>이곳에선 JSP에 관한 용어를 설명합니다.</span>
                             </div>
                         </div>
                     </Link>

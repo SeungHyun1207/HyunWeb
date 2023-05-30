@@ -2,15 +2,19 @@
 import SideBar from "../SideBar";
 import {Link} from "react-router-dom";
 
+import "../../../styles/Game.scss";
 function Game(){
 
     return(
-        <div className="mainWrap">
-            {/* 사이드바 */}
-            <SideBar/>
-            {/* 컨텐츠 */}
-            <GameCont />
+        <div className="Game-container">
+            <div className="mainWrap">
+                {/* 사이드바 */}
+                <SideBar/>
+                {/* 컨텐츠 */}
+                <GameCont />
+            </div>
         </div>
+
 
     )
 }

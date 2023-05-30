@@ -1,0 +1,14 @@
+.Game-container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-clip: border-box;
+  background-image: url("../img/Game_Background_Img.PNG");
+  background-position: center;
+  overflow: hidden;
+}
+.Game-container .menuLink {
+  color: black;
+}
+
+/*# sourceMappingURL=Game.css.map */

@@ -3,16 +3,18 @@ body {
   padding: 5%;
   background-size: cover;
   background-clip: border-box;
-  background-image: url("../img/Home_Background_Img.PNG");
-  background-position: center;
+  background: linear-gradient(0deg, #713dad, #29f5d6, #dce3e3);
   overflow: hidden;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
 }
 body #fullpage {
+  position: relative;
   width: 100%;
   height: 80vh;
-  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
   background: rgba(16, 18, 27, 0.4);
+  border: 1px solid #000;
 }
 body #fullpage .mainWrap {
   display: flex;
@@ -139,10 +141,40 @@ body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap {
   padding: 3%;
 }
 body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap .Card {
-  background-color: #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
   height: 300px;
   border-radius: 10%;
+}
+body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap .Jeju {
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+  overflow: hidden;
+  background-image: url("../img/Jeju.jpg");
+}
+body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap .Seoul {
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+  overflow: hidden;
+  background-image: url("../img/Seoul.jpg");
+}
+body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap .Html {
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  transition: transform 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=App.css.map */
