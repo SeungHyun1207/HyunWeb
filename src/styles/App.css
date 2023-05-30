@@ -167,14 +167,20 @@ body #fullpage .mainWrap .ContentWrap .ContentCont .CardWrap .Html {
   overflow: hidden;
 }
 
-.slider {
-  display: flex;
-  overflow: hidden;
-}
-
-.slide {
-  flex: 0 0 100%;
-  transition: transform 0.3s ease-in-out;
+@media (max-width: 399px) {
+  body #fullpage {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(16, 18, 27, 0.4);
+    border: 1px solid #000;
+  }
+  body #fullpage .Card {
+    max-width: 195px;
+    max-height: 180px;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */
