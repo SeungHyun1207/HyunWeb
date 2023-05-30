@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/HyunWeb/static/css/main.591ea641.css",
-    "main.js": "/HyunWeb/static/js/main.01af9845.js",
+    "main.css": "/HyunWeb/static/css/main.39a28adf.css",
+    "main.js": "/HyunWeb/static/js/main.8cf50faf.js",
     "static/media/Home_Profile.jpg": "/HyunWeb/static/media/Home_Profile.c90342d41dc97d621757.jpg",
-    "static/media/Home_Background_Img.PNG": "/HyunWeb/static/media/Home_Background_Img.74c640d97846552f8698.PNG",
+    "static/media/Seoul.jpg": "/HyunWeb/static/media/Seoul.d52f27e6e67fc72691bd.jpg",
+    "static/media/Game_Background_Img.PNG": "/HyunWeb/static/media/Game_Background_Img.74c640d97846552f8698.PNG",
+    "static/media/Trip_Background.jpg": "/HyunWeb/static/media/Trip_Background.5f932252e1727c3b78b6.jpg",
+    "static/media/Jeju.jpg": "/HyunWeb/static/media/Jeju.b132428dd072a035e552.jpg",
     "index.html": "/HyunWeb/index.html",
-    "main.591ea641.css.map": "/HyunWeb/static/css/main.591ea641.css.map",
-    "main.01af9845.js.map": "/HyunWeb/static/js/main.01af9845.js.map"
+    "main.39a28adf.css.map": "/HyunWeb/static/css/main.39a28adf.css.map",
+    "main.8cf50faf.js.map": "/HyunWeb/static/js/main.8cf50faf.js.map"
   },
   "entrypoints": [
-    "static/css/main.591ea641.css",
-    "static/js/main.01af9845.js"
+    "static/css/main.39a28adf.css",
+    "static/js/main.8cf50faf.js"
   ]
 }
