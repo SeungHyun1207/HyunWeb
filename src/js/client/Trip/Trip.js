@@ -33,30 +33,30 @@ function TripCont(){
                         <Link to={"/Trip/Jeju"} style={{textDecoration: 'none'}} id="JejuLink">
                             <div className="Card Jeju">
                                 <div className="CardTitle">
-                                    <span>Jeju 타이틀</span>
+                                    <span>Jeju</span>
                                 </div>
                                 <div className="CardCont">
-                                    <span>여기는 제주</span>
+                                    <span>제주</span>
                                 </div>
                             </div>
                         </Link>
                         <Link to={"/Trip/Seoul"} style={{textDecoration: 'none'}}>
                             <div className="Card Seoul">
                                 <div className="CardTitle">
-                                    <span>Seoul 타이틀</span>
+                                    <span>Seoul</span>
                                 </div>
                                 <div className="CardCont">
-                                    <span>여기는 서울</span>
+                                    <span>서울</span>
                                 </div>
                             </div>
                         </Link>
                         <Link to={"/Trip/Busan"} style={{textDecoration: 'none'}}>
-                            <div className="Card">
+                            <div className="Card Busan">
                                 <div className="CardTitle">
-                                    <span>Busan 타이틀</span>
+                                    <span>Busan</span>
                                 </div>
                                 <div className="CardCont">
-                                    <span>여기는 부산</span>
+                                    <span>부산</span>
                                 </div>
                             </div>
                         </Link>

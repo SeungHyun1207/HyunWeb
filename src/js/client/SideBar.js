@@ -1,5 +1,11 @@
 import {Link} from "react-router-dom";
 import {useState, useEffect} from "react";
+
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 function SideBar(){
 
     /*// 처음에 닫힌 상태로
@@ -24,6 +30,10 @@ function SideBar(){
         // menuOpenClose.classList.toggle('active');
     }*/
 
+    let instagramStyle = {
+        background: `radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%)`
+    };
+
     return (
         /* 메뉴 Open 클래스 추가하기! */
         // <div className={`sideBarWrap ${menuOpen ? 'open' : ''}`}>
@@ -41,22 +51,27 @@ function SideBar(){
                     <span></span>
                 </div>*/}
                 {/*<span>{menuOpen ? '' : ''}</span>*/}
+                <div className="SNSLink">
+                    <div className="youtube">
+                        <a href="https://www.youtube.com/channel/UCHC0mo3JMGpzGeV_mLKQ9ug" target="_blank" rel="noopener noreferrer" className="menu" style={{ textDecoration: 'none' }}>
+                            <FontAwesomeIcon icon={faYoutube} beat style={{color: "#ff0000",}}>
+                            </FontAwesomeIcon>
+                        </a>
+                    </div>
+                    <div className="instagram">
+                        <a href="https://instagram.com/s12.hyun07?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" className="menu" style={{ textDecoration: 'none' }}>
+                            <FontAwesomeIcon icon={faInstagram} beat style={instagramStyle}>
+                                <div className="instagramStyle"></div>
+                            </FontAwesomeIcon>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div className="sideBarCont">
                 <div className="profile sidecont">
                     <Link to="/Profile" className="menu" style={{ textDecoration: 'none' }}>
                         <span className="menuLink">프로필</span>
                     </Link>
-                </div>
-                <div className="youtube sidecont">
-                    <a href="https://www.youtube.com/channel/UCHC0mo3JMGpzGeV_mLKQ9ug" target="_blank" rel="noopener noreferrer" className="menu" style={{ textDecoration: 'none' }}>
-                        <span className="menuLink">Youtube</span>
-                    </a>
-                </div>
-                <div className="instagram sidecont">
-                    <a href="https://instagram.com/s12.hyun07?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" className="menu" style={{ textDecoration: 'none' }}>
-                        <span className="menuLink">Instagram</span>
-                    </a>
                 </div>
                 <div className="trip sidecont">
                     <Link to="/Trip" className="menu" style={{ textDecoration: 'none' }}>
